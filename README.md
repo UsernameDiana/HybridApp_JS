@@ -62,7 +62,7 @@ We can insert some test data like this: Test Data This will show the test data o
 
 #### Explain, using an example you have implemented, the "fundamentals" of an Ionic application.
 Ionic uses AngularJS and Cordova to create Hybrid Apps, for the styling of this app Ionic uses CSS and JavaScript like BootStrap does. When creating the HTML for a the app, Ionic specific directives is used like this.
-```html
+```ion
 <ion-side-menu side="left">
     <ion-header-bar class="bar-dark">
       <h1 class="title">Projects</h1>
