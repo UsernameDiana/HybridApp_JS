@@ -6,6 +6,7 @@
 * HTML5 Apps use standard web technologies, like JavaScript and CSS to create cross platform mobile applications. Limitations from this strategy is: session management, no secure offline storage, no access to native device functionality (camera, calendar, etc).  
 
 ![alt tag](https://cloud.githubusercontent.com/assets/16150075/24773151/4a880236-1b14-11e7-82a5-b72112b67b37.PNG)
+![alt tag](https://cloud.githubusercontent.com/assets/16150075/24773135/3cb931d4-1b14-11e7-90d0-ef1724fa46f6.PNG)
 
 To get native-like functionality in HTML apps, we can use a tool such as Cordova.  
 Apache Cordova enables software programmers to build applications for mobile devices using CSS3, HTML5, and JavaScript instead of relying on platform-specific APIs like those in Android, iOS, or Windows Phone.  
