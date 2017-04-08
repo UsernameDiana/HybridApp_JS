@@ -9,9 +9,10 @@
 ![alt tag](https://cloud.githubusercontent.com/assets/16150075/24773135/3cb931d4-1b14-11e7-90d0-ef1724fa46f6.PNG)
 
 To get native-like functionality in HTML apps, we can use a tool such as Cordova.  
-Apache Cordova enables software programmers to build applications for mobile devices using CSS3, HTML5, and JavaScript instead of relying on platform-specific APIs like those in Android, iOS, or Windows Phone.  
-It enables wrapping up of CSS, HTML, and JavaScript code depending upon the platform of the device.  
-It extends the features of HTML and JavaScript to work with the device. The resulting applications are hybrid, meaning that they are neither truly native mobile application (because all layout rendering is done via Web views instead of the platform's native UI framework) nor purely Web-based (because they are not just Web apps, but are packaged as apps for distribution and have access to native device APIs).
+
+
+Apache Cordova enables software programmers to build applications for mobile devices using CSS3, HTML5, and JavaScript instead of relying on platform-specific APIs like those in Android, iOS, or Windows Phone. Apache Cordova enables wrapping up of CSS, HTML, and JavaScript code depending upon the platform of the device.  
+Apache Cordova extends the features of HTML and JavaScript to work with the device. Resulting applications are hybrid, meaning that they are neither truly native mobile application (because all layout rendering is done via Web views instead of the platform's native UI framework) nor purely Web-based (because they are not just Web apps, but are packaged as apps for distribution and have access to native device APIs).
 
 
 #### Explain the Pros & Cons of using Hybrid Mobile App Development compared to Native App Development.
@@ -78,6 +79,7 @@ Ionic uses AngularJS and Cordova to create Hybrid Apps, for the styling of this 
     </ion-content>
   </ion-side-menu>
 ```
+
 #### Explain, with focus on location, technologies related to locations used on:
 Your app (client side). 
 Your backend. 
