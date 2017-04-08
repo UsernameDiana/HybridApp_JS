@@ -61,8 +61,23 @@ We can insert some test data like this: Test Data This will show the test data o
 
 
 #### Explain, using an example you have implemented, the "fundamentals" of an Ionic application.
-TODO
-
+Ionic uses AngularJS and Cordova to create Hybrid Apps, for the styling of this app Ionic uses CSS and JavaScript like BootStrap does. When creating the HTML for a the app, Ionic specific directives is used like this.
+```html
+<ion-side-menu side="left">
+    <ion-header-bar class="bar-dark">
+      <h1 class="title">Projects</h1>
+      <button class="button button-icon ion-plus" ng-click="newProject()">
+      </button>
+    </ion-header-bar>
+    <ion-content scroll="false">
+      <ion-list>
+        <ion-item ng-repeat="project in projects" ng-click="selectProject(project, $index)" ng-class="{active: activeProject == project}">
+          {{project.title}}
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+```
 #### Explain, with focus on location, technologies related to locations used on:
 Your app (client side). 
 Your backend. 
